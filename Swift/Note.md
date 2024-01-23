@@ -93,3 +93,33 @@ let bool2 = false
 
 bool1.toggle() // false
 ```
+
+
+### Array
+```swift
+var numbers = [1, 2, 3, 4, 5]
+print(numbers[0]) // 1
+print(numbers[1]) // 2
+numbers.append(6)
+print(numbers) // [1, 2, 3, 4, 5, 6]
+print(numbers.count) // 6
+print(numbers.contains(6)) // true
+print(numbers.sorted()) // 정렬
+print(numbers.reversed()) // 역순 정렬
+
+let numbers2 = [4, 5, 6, 7]
+print(numbers + numbers2) // [1, 2, 3, 4, 5, 6, 7]
+
+```
+
+### Dictionary
+```swift
+let languages = [
+    "Swift": "Apple",
+    "Java": "Oracle",
+    "Kotlin": "JetBrains"
+]
+  
+print(languages["Swift"]) // Optional("Apple")
+print(languages["Swift", default: "Unknown"]) // "Apple"
+```
