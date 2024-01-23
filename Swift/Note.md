@@ -123,3 +123,13 @@ let languages = [
 print(languages["Swift"]) // Optional("Apple")
 print(languages["Swift", default: "Unknown"]) // "Apple"
 ```
+
+### Set
+```swift
+// 중복 항목 추가 X, 항목을 순서대로 저장하지 않음
+// insert(), contains()...
+var languages = Set(["Swift", "Rust", "Go", "PHP"])
+print(languages) // ["Rust", "PHP", "Swift", "Go"]
+languages.insert("Javascript") // ["Rust", "PHP", "Swift", "Go", "Javascript"]
+print(languages)
+
