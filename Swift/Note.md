@@ -149,4 +149,12 @@ let remain = 13 & firstNumber // 3 나머지
 let firstArr = ["A", "B"]
 let secondArr = ["C", "D"]
 print(firstArr + secondArr) // ["A", "B", "C", "D"]
+
+var num = 100
+num -= 5
+print(num) // 95
+
+var desc = "Hello"
+desc += " World"
+print(desc) // Hello World
 ```
