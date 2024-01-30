@@ -145,4 +145,8 @@ let sub = firstNumber - secondNumber // 8 빼기
 let mul = firstNumber * secondNumber // 20 곱하기
 let div = firstNumber / secondNumber // 5 나누기
 let remain = 13 & firstNumber // 3 나머지
+
+let firstArr = ["A", "B"]
+let secondArr = ["C", "D"]
+print(firstArr + secondArr) // ["A", "B", "C", "D"]
 ```
