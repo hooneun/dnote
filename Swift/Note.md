@@ -132,4 +132,17 @@ var languages = Set(["Swift", "Rust", "Go", "PHP"])
 print(languages) // ["Rust", "PHP", "Swift", "Go"]
 languages.insert("Javascript") // ["Rust", "PHP", "Swift", "Go", "Javascript"]
 print(languages)
+```
 
+### Operators
+```swift
+let firstNumber = 10
+let secondNumber = 2
+
+let sum = firstNumber + secondNumber // 12 더하기
+let sub = firstNumber - secondNumber // 8 빼기
+
+let mul = firstNumber * secondNumber // 20 곱하기
+let div = firstNumber / secondNumber // 5 나누기
+let remain = 13 & firstNumber // 3 나머지
+```
