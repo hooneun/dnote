@@ -137,6 +137,23 @@ languages.insert("Javascript") // ["Rust", "PHP", "Swift", "Go", "Javascript"]
 print(languages)
 ```
 
+### Enum
+```swift
+enum Weekday {
+  case monday
+  case tuesday
+  case wednesday
+  case thursday
+  case friday
+  case saturday
+  case sunday
+}
+
+var day = Weekday.monday
+
+var day = .monday
+```
+
 ### Operators
 ```swift
 let firstNumber = 10
