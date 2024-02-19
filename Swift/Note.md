@@ -122,6 +122,9 @@ let languages = [
   
 print(languages["Swift"]) // Optional("Apple")
 print(languages["Swift", default: "Unknown"]) // "Apple"
+
+let languages = [String: String]()
+languages["Swift"] = "Apple"
 ```
 
 ### Set
